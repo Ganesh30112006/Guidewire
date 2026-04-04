@@ -1,0 +1,51 @@
+{
+  "name": "GigGo",
+  "short_name": "GigGo",
+  "description": "AI-powered income protection insurance for gig workers",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2563eb",
+  "orientation": "portrait-primary",
+  "categories": ["finance", "insurance"],
+  "lang": "en",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Dashboard",
+      "short_name": "Home",
+      "description": "Open your dashboard",
+      "url": "/dashboard"
+    },
+    {
+      "name": "File a Claim",
+      "short_name": "Claims",
+      "description": "File a new insurance claim",
+      "url": "/claims"
+    },
+    {
+      "name": "Alerts",
+      "short_name": "Alerts",
+      "description": "View disruption alerts",
+      "url": "/alerts"
+    }
+  ]
+}
